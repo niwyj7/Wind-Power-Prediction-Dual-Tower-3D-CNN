@@ -17,6 +17,7 @@ Because there are no actual ground-truth targets for the strictly decomposed reg
 The core model is a **Dual Tower 3D Convolutional Neural Network (CNN)** equipped with a **Channel Attention** mechanism to extract spatial-temporal features effectively.
 
 * **Latent Feature Extraction:** The dual-tower design explicitly forces the network to learn independent representations for the North and South grids before fusing them, isolating the spatial imbalance.
+* **Physically Constrained Outputs:** Ensures strictly non-negative wind power predictions using `Softplus` activation and post-processing bounds to match real-world physics.
 * **Strict Time-Series Validation:** Prevents data leakage by strictly splitting training and validation sets chronologically (no random splits).
 * **Data Alignment Verification:** Ensures strict index matching across multiple data sources before tensor creation.
 * **Channel Attention:** Enhances feature extraction dynamically without overcomplicating the spatial dimensions.

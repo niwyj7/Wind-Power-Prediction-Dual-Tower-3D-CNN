@@ -21,3 +21,5 @@ The core model is a **Dual Tower 3D Convolutional Neural Network (CNN)** equippe
 * **Strict Time-Series Validation:** Prevents data leakage by strictly splitting training and validation sets chronologically (no random splits).
 * **Data Alignment Verification:** Ensures strict index matching across multiple data sources before tensor creation.
 * **Channel Attention:** Enhances feature extraction dynamically without overcomplicating the spatial dimensions.
+
+<img width="1536" height="1024" alt="ChatGPT Image Apr 13, 2026, 09_33_56 PM" src="https://github.com/user-attachments/assets/09f6d79a-b783-4cb0-aade-361651a60dd6" />

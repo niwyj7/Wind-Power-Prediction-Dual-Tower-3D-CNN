@@ -25,7 +25,7 @@ The core model is a **Dual Tower 3D Convolutional Neural Network (CNN)** equippe
 <img width="1536" height="1024" alt="ChatGPT Image Apr 13, 2026, 09_33_56 PM" src="https://github.com/user-attachments/assets/09f6d79a-b783-4cb0-aade-361651a60dd6" />
 
 ## Check Consistency
-Visualise weight heatmaps to check model convergence and learning consistency (rolling daily model update)
+Visualise weight heatmaps to check model convergence consistency/learning consistency (rolling train, daily model update)
 Examples:
 <img width="1050" height="750" alt="image" src="https://github.com/user-attachments/assets/a1173e51-11b0-4e68-85db-365b2c6b1c99" />
 

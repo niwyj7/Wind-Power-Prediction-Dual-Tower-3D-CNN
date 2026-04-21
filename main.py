@@ -4,8 +4,8 @@ import os
 from scipy.interpolate import interp1d
 
 # Import your custom data loader modules
-from EnergyDataLoader.energydataloader import EnergyDataLoader
-from EnergySQL.energysql import EnergySQL
+import EnergyDataLoader
+import EnergySQL
 
 # Import refactored modules
 from data_processor import (combine_ecmwf_pkl_files, resample, get_true_wind_power, 
